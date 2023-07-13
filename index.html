@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Whac-a-Mole</title>
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <img src="whac-a-mole-title.png" alt="Whac-A-Mole" class="title">
+        </header>
+        <div class="infos">
+            <div class="block-level">
+                <h4 id="level">Level 1</h4>
+            </div>
+            <div class="block-score">
+                <h4>Score: <span id="score">0</span></h4>
+            </div>
+                
+            
+            <div class="block-time">
+                <h4>Time: </h4>
+                <h4 id="time-left"> 10</h4>
+            </div>
+        </div>
+        
+        <div id="modal" class="modal">
+            <div id="message-container" class="message-container">
+                <h4 id="message"></h4>
+            </div>
+            <button id="play-again" class="play-again"></button>
+        </div>
+        
+        <div class="grid">
+            <div class="square" id="1"></div>
+            <div class="square" id="2"></div>
+            <div class="square" id="3"></div>
+            <div class="square" id="4"></div>
+            <div class="square" id="5"></div>
+            <div class="square" id="6"></div>
+            <div class="square" id="7"></div>
+            <div class="square" id="8"></div>
+            <div class="square" id="9"></div>
+        </div>
+        
+        <footer>
+            <p>Developed by Ashwini.T </p>
+        </footer>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
