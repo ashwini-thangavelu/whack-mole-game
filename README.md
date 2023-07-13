@@ -1,2 +1,2 @@
 # whack-mole-game
-whack a mole game
+[Ashwini.T](https://ashwini-thangavelu.github.io/whack-mole-game/)
